@@ -50,6 +50,7 @@ export const AddEntry = ({ navigation, route }) => {
           // Data already exists, update it
           const updatedNotes = [...notes];
           updatedNotes[formDataExistIndex] = formData;
+          
           setNotes(updatedNotes);
           alert('Data successfully updated');
         } else {

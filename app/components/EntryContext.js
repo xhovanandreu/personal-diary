@@ -54,6 +54,7 @@ export const NotesProvider = ({ children }) => {
         notes,
         setNotes,
         deleteNote,
+        readData
       }}
     >
       {children}
