@@ -91,7 +91,7 @@ export const NavWrapper = () => {
           component={AddEntryScreen}
           options={{
               
-              tabBarLabel: 'Add Entry',
+              tabBarLabel: 'Add Diary',
               tabBarIcon: ({ color, size }) => (
               <SimpleLineIcons name="book-open" size={20} color={color}/>
               ),

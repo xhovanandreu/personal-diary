@@ -18,7 +18,7 @@ const EntryItem = ({ item, navigation }) => {
   const handledeleteNote = ( id ) => {
     Alert.alert(
       'Confirmation',
-      'Are you sure you want to delete this entry?',
+      'Are you sure you want to delete this diary?',
       [
         {
           text: 'Cancel',

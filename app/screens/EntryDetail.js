@@ -43,7 +43,7 @@ export const EntryDetail = ({navigation, route}) => {
   const handledeleteNote = ( id ) => {
     Alert.alert(
       'Confirmation',
-      'Are you sure you want to delete this entry?',
+      'Are you sure you want to delete this dairy?',
       [
         {
           text: 'Cancel',

@@ -82,7 +82,7 @@ export const EditEntryScreen = ({ navigation, route }) => {
   return (
     <KeyboardAwareScrollView style={styles.container}>
       <View style={[styles.container, styles.screenPadding]}>
-      <Text style={{ textAlign:"center", fontSize:20, fontWeight:"bold" }}>Edit Entry</Text>
+      <Text style={{ textAlign:"center", fontSize:20, fontWeight:"bold" }}>Edit Diary</Text>
 
       <Text style={styles.inputLabel}>Date</Text>
       <TextInput

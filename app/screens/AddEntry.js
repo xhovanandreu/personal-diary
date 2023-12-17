@@ -84,7 +84,7 @@ export const AddEntry = ({ navigation, route }) => {
   return (
     <KeyboardAwareScrollView style={styles.container}>
       <View style={[styles.container, styles.screenPadding]}>
-      <Text style={{ textAlign:"center", fontSize:20, fontWeight:"bold" }}>Add Entry</Text>
+      <Text style={{ textAlign:"center", fontSize:20, fontWeight:"bold" }}>Add Diary</Text>
       
       <Text style={styles.inputLabel}>Date</Text>
       <Pressable onPress={toggleDatePicker}>
