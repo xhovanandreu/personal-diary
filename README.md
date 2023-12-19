@@ -8,7 +8,9 @@ Here are elements to consider before running someone else's Expo React Native ap
 - 		Expo Go App: install expo app on mobile (I have been using IOS)
 
 To start the app: 
+
 In the root directory write the command: npx expo start
+
 Scan the QR code 
 
 
